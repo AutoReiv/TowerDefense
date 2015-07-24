@@ -4,7 +4,7 @@ import javax.swing.*;
 
 public class Frame extends JFrame {
 	public static String title = "TowerDefense Alpha";
-	public static Dimension size = new Dimension(550, 650);
+	public static Dimension size = new Dimension(700, 550);
 	
 	public Frame(){
 		setTitle(title);
@@ -13,9 +13,11 @@ public class Frame extends JFrame {
 		setLocationRelativeTo(null);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
+		init();
+		
 	}
 	public void init(){
-		
+		setVisible(true);
 	}
 	
 	public static void main(String args[]){
