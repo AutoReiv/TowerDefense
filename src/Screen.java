@@ -3,7 +3,14 @@ import javax.swing.*;
 
 public class Screen extends JPanel {
 	public Screen(){
-		setBackground(Color.PINK);
+		
 	}
 	
+	public void paintComponent(Graphics g){
+		
+	}
+	
+	public void run(){
+		
+	}
 }
