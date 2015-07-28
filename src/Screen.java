@@ -1,7 +1,7 @@
 import java.awt.*;
 import javax.swing.*;
 
-public class Screen extends JPanel {
+public class Screen extends JPanel implements Runnable {
 	public Screen(){
 		
 	}
@@ -11,6 +11,8 @@ public class Screen extends JPanel {
 	}
 	
 	public void run(){
-		
+		while(true){
+			System.out.println("Hello");
+		}
 	}
 }
