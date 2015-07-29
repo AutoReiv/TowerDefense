@@ -19,7 +19,7 @@ public class Screen extends JPanel implements Runnable {
 			
 			try{
 				Thread.sleep(1);
-			}
+			} catch (Exception e) {}
 		}
 	}
 }
