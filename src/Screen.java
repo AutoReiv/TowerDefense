@@ -4,6 +4,8 @@ import javax.swing.*;
 public class Screen extends JPanel implements Runnable {
 	public Thread thread = new Thread(this);
 	
+	public static int myWidth, myHeight; 
+	
 	public static boolean isFirst = true;
 	
 	public Screen(){
@@ -11,7 +13,9 @@ public class Screen extends JPanel implements Runnable {
 	}
 	
 	public void paintComponent(Graphics g){
-		
+		if(isFirst){
+			
+		}
 		
 		g.clearRect(0, 0, getWidth(), getHeight());
 	}
