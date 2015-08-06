@@ -12,9 +12,14 @@ public class Screen extends JPanel implements Runnable {
 		thread.start();
 	}
 	
+	public void define(){
+		
+	}
+	
 	public void paintComponent(Graphics g){
 		if(isFirst){
 			
+			define();
 		}
 		
 		g.clearRect(0, 0, getWidth(), getHeight());
