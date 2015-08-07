@@ -28,7 +28,9 @@ public class Screen extends JPanel implements Runnable {
 	public static int fpsFrame = 0, fps = 1000000;
 	public void run(){
 		while(true){
-			
+			if(!isFirst){
+				
+			}
 			
 			repaint();
 			
